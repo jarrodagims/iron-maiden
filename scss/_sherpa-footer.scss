@@ -15,6 +15,10 @@
     flex: 1;
     justify-content: flex-start;
     align-items: flex-start;
+
+    p {
+      color: #000;
+    }
   }
 
   .phone-footer, .address-footer {
@@ -241,7 +245,10 @@
     font-size: 16px;
     line-height: 1.75;
     font-weight: 300;
-    color: #606060;
+
+    strong {
+      font-weight: 500;
+    }
   }
 
   ul {
@@ -266,6 +273,10 @@
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+
+    a {
+      font-weight: 500; 
+    }
 
     &:first-child {
       margin-left: 0;
@@ -483,6 +494,8 @@
 
     p {
       font-size: 14px;
+      text-align: center; 
+      margin: 0 auto;
     }
 
     .btn {
@@ -526,6 +539,8 @@
 
   .navbar-sherpa .navbar-nav > li > a {
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
   }
 
   @include media-breakpoint-down(md) {
@@ -560,9 +575,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+ 
     a {
       color: #29292C;
+      margin-right: 1em;
       &:hover {
         color: $sherpa-brand-primary;
       }
@@ -602,8 +618,6 @@
   #footer {
     padding: 2em 0;
 
-
-
     a {
       width: auto;
     }
@@ -615,8 +629,6 @@
     span.title {
       margin: 0 0 1em 0;
     }
-
-    
 
     padding-bottom: 0;
 
@@ -649,8 +661,6 @@
 
   #footer {
     padding: 2em 0;
-
-  
 
     .row {
       flex-direction: column;

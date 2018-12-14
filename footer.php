@@ -9,7 +9,8 @@
                 <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img src="<?= IMGURL; ?>logo.svg" alt="<?php echo get_bloginfo(
                                 'description'
                             ); ?>" /></a>
-                <p>If you’re looking for ironing clothes service in El Paso, Quality Iron Maid can help.</p>
+                <p>If you’re looking for ironing clothes service in El Paso, Quality Iron Maid <span class="br-md">can
+                        help.</span></p>
             </div>
             <div class="col phone-footer">
                 <div>
@@ -18,7 +19,7 @@
                         1475 George Dieter Dr<br />
                         Suite C<br />
                         El Paso, TX 79936<br />
-                        PH. (915) 320-6795
+                        <strong>PH.</strong> (915) 320-6795
                     </p>
                 </div>
             </div>
@@ -61,16 +62,15 @@ $sm->setColorType('singleColor');
             <div class="col">
                 <div class="d-none d-md-block">
                     <?php
-$sm = new SocialMedia(array('facebook', 'twitter'));
-$sm->setSize('md');
-$sm->showNetworkButtons();
-$sm->setColorType('singleColor');
-?>
+                    $sm = new SocialMedia(array('facebook', 'twitter'));
+                    $sm->setSize('sm');
+                    $sm->showNetworkButtons();
+                    $sm->setColorType('singleColor');
+                    ?>
                 </div>
-                <p class="small">Privacy Policy | Site Copyright &copy;
+                <p class="small">Copyright &copy;
                     <?php echo date('Y'); ?>
                 </p>
-
             </div>
         </div>
     </div>

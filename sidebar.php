@@ -19,7 +19,7 @@
 <section class="home-module-3">
     <div class="card">
         <div class="card-top">
-            <span>you wash it,</span> we iron it!
+            <span>You wash it,</span> we iron it!
         </div>
 
         <div class="card-bottom">
