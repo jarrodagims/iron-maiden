@@ -9,7 +9,7 @@
         <div class="jumbo-content">
             <h1>
                 QUALITY IRON MAID
-                <span>High-Quality Ironing Services in El Paso</span>
+                <span>High-Quality Ironing <span class="br-md">Services in El Paso</span></span>
             </h1>
 
             <a href="<?=SITEURL?>/contact/" class="header-button"><button class="btn btn-primary my-2 my-sm-0" type="submit">Contact
