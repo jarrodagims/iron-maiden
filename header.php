@@ -51,10 +51,9 @@
                                     $sm->setListType('listUnstyled');
                                     ?>
                         </li>
-                        <li class="menu-item directions"><a href="<?php echo get_site_url() ?>/contact/"><span>6455
-                                    Hiller Suite 10, El Paso, Texas 79925</span></a></a></li>
-                        <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>Call
-                                    Us Today!
+                        <li class="menu-item directions"><a href="<?php echo get_site_url() ?>/contact/"></a></a></li>
+                        <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>
+                                    &nbsp;
                                     <?php printPhone(); ?></span></a></li>
                     </ul>
                 </div>

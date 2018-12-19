@@ -113,11 +113,6 @@
     }
   }
 
-  @include media-breakpoint-up(md) {
-    .box.longer {
-      height: 500px;
-    }
-  }
 
   @include media-breakpoint-down(md) {
     display: none;
