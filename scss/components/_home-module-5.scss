@@ -60,20 +60,23 @@
     flex-direction: column;
     flex: 1;
     border-top: 15px solid $white;
+    border-right: 7.5px solid $white;
+    border-left: 7.5px solid $white;
 
     &:first-child {
       .box {
         border-left: 15px solid $white;
         border-right: 7.5px solid $white;
-      }
+      } 
     }
 
     &:last-child {
       .row {
         .box {
           border-left: 7.5px solid $white;
-          border-right: 15px solid $white;
-          
+          border-right: 7.5px solid $white;
+          flex: 1;
+          height: 100%;
         }
       }
     }

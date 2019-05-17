@@ -1,7 +1,7 @@
 <?php
 	if(have_posts()) {
     	?>
-    	<?php
+<?php
 		while(have_posts()) {
 			the_post();
 
@@ -25,20 +25,20 @@
 
 			endif;
 
-			echo "<article class='col-md-6 col-sm-12'>";
+			echo "<article class='col-lg-6 col-xs-12'>";
 			?>
-            <?php
+<?php
 			echo "<div class=\"blog-post\">";
 			if(!empty($thumb_url)):
 			?>
-			<a href="<?=$permalink?>">
-			<img src="<?=$thumb_url?>" alt="<?=get_the_title()?>" class="blog-pic" />
-			</a>
+<a href="<?=$permalink?>">
+    <img src="<?=$thumb_url?>" alt="<?=get_the_title()?>" class="blog-pic" />
+</a>
 
-			<?php
+<?php
 			endif;
 			echo '<h3><a href="' . $permalink . '">';
-            echo short_title('...', 5);
+            echo the_title();
             echo '</a>' . $edit_link . '</h3>';
             echo '<p>';
             sherpa_excerpt();
@@ -48,5 +48,5 @@
 		}
 		?>
 
-		<?php
+<?php
 	}

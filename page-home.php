@@ -8,8 +8,8 @@
     <div class="jumbotron">
         <div class="jumbo-content">
             <h1>
-                QUALITY IRON MAID
-                <span>High-Quality Ironing <span class="br-md">Services in El Paso</span></span>
+                LAUNDRY SERVICE
+                <span>Let Quality Iron Maid <span class="br-md">Iron All of Your Clothes!</span></span>
             </h1>
 
             <a href="<?=SITEURL?>/contact/" class="header-button"><button class="btn btn-primary my-2 my-sm-0" type="submit">Contact
@@ -33,8 +33,21 @@
         <div class="row">
             <div class="col">
                 <div class="extra-padding">
+                    <h2 class="expander" data-target="#expand">Ironing Clothes Service in El Paso</h2>
+                        <h3 id="expand-home">
+                            <ul id="expand" class="expand" style="display: none;">
+                                <li>We’ll take care of your laundry and iron it to its very best</li>
+                                <li>Whether it be just a top or an entire load of laundry that requires ironing, we can help!</li>
+                                <li>Quality Iron Maid is a highly reviewed ironing service provider in El Paso</li>
+                                <li>Let us be your local option for ironing and dry cleaning!</li>
+                                <li>Our individual express ironing services take as little as 15 minutes!</li>
+                                <li>Check out our reviews!</li>
+                                <li>When it comes to ironing, you deserve fast service!</li>
+                                <li>Choose us as your go-to ironing company</li>
+                            </ul>
+                        </h3>    
                     <h2>Quality Iron Maid — High-Quality Ironing Services in El Paso</h2>
-
+                    
                     <p class="blurb">Quality Iron Maid was established with one very simple goal in mind: to help
                         individuals and companies alike with all their ironing needs.</p>
 
@@ -101,24 +114,6 @@
                                 </span></p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="box darker">
-                            <?php echo get_template_part('template-parts/icons/icon','2') ?>
-
-
-
-                            <h3>Corporate Ironing Services</h3>
-                            <p>Quality Iron Maid also offers corporate ironing services to local companies. We’ve
-                                worked with hotels, border patrol, and the Sun Metro in the past so we can take care of
-                                your ironing needs, no matter the size!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col flex-col">
-                <div class="row">
                     <div class="col">
                         <div class="box darkest">
                             <?php echo get_template_part('template-parts/icons/icon','5') ?>
@@ -129,11 +124,23 @@
                 </div>
                 <div class="row">
                     <div class="col">
+                        <div class="box darker">
+                            <?php echo get_template_part('template-parts/icons/icon','2') ?>
+
+                            <h3>Corporate Ironing Services</h3>
+                            <p>Quality Iron Maid also offers corporate ironing services to local companies. We’ve
+                                worked with hotels, border patrol, and the Sun Metro in the past so we can take care of
+                                your ironing needs, no matter the size!</p>
+                        </div>
+                    </div>
+                    <div class="col">
                         <div class="box darker longer">
                             <?php echo get_template_part('template-parts/icons/icon','3') ?>
                             <h3>Fast Turnaround Services</h3>
-                            <p>Since we will iron freshly laundered clothing, the turnaround time on orders is usually
-                                very quick. Not only will you get your clothes back sooner than if you sent it to the
+                            <p>Since we will iron freshly laundered clothing, the turnaround time on orders is
+                                usually
+                                very quick. Not only will you get your clothes back sooner than if you sent it to
+                                the
                                 dry cleaners, our service is much more affordable than dry cleaning!
                             </p>
                         </div>
@@ -200,10 +207,10 @@
                 </div>
             </div>
             <div class="col col-lg-5 col-xs-12 col-sm-12 offset-lg-1">
-                <img src="<?=IMGURL?>bg-shirts.jpg" alt="Dry Cleaning" class="d-none d-md-block" />
+                <img src="<?=IMGURL?>bg-shirts.jpg" alt="Ironing Clothes Service" class="d-none d-md-block" />
             </div>
         </div>
     </div>
-    <img src="<?=IMGURL?>bg-clothes.jpg" alt="Dry Cleaning" class="d-xs-block d-sm-block d-md-none" />
+    <img src="<?=IMGURL?>bg-clothes.jpg" alt="Shirt Ironing Service" class="d-xs-block d-sm-block d-md-none" />
 </section>
 <?php get_footer(); ?>

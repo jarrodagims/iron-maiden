@@ -19,7 +19,7 @@
                         1475 George Dieter Dr<br />
                         Suite C<br />
                         El Paso, TX 79936<br />
-                        <strong>PH.</strong> (915) 320-6795
+                        <strong>PH.</strong> (915) 595-4766
                     </p>
                 </div>
             </div>
@@ -76,6 +76,11 @@ $sm->setColorType('singleColor');
     </div>
 </section>
 <?php wp_footer(); ?>
+<script>	
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'https://www.qualityironmaid.com/thank-you/';
+}, false );
+</script>
 <?php
 /**
  *
